@@ -48,3 +48,6 @@ To build a `k6` binary with this extension, first ensure you have the prerequisi
 ./k6 run examples/main.js
 
 ```
+
+## Result
+![image](https://github.com/VikashChauhan51/k6-jsonnet/assets/14816038/936550a2-c43f-4070-8f0c-103cef4188cc)
