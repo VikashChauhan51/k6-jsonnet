@@ -12,3 +12,15 @@ export default function () {
 }
 
 ```
+## Build it
+
+```cmd
+xk6 build --with github.com/VikashChauhan51/k6-jsonnet@v0.1.0
+```
+
+## Run sample script
+
+```cmd
+./k6 run examples/main.js
+
+```
