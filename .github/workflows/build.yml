@@ -23,7 +23,7 @@ jobs:
       run: go install go.k6.io/xk6/cmd/xk6@latest
 
     - name: Build k6 with extension
-      run: xk6 build --with github.com/VikashChauhan51/k6-jsonnet@latest
+      run: xk6 build --with github.com/VikashChauhan51/k6-jsonnet@v0.1.0
 
     - name: Run tests
       run: go test ./...
