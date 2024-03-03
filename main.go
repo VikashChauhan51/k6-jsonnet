@@ -8,3 +8,7 @@ import (
 func init() {
 	modules.Register("k6/x/jsonnet", jsonnet.New())
 }
+
+func main() {
+
+}
